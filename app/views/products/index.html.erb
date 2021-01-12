@@ -1,0 +1,14 @@
+<h1>Add Product</h1>
+
+<form>
+  <label for="item">Item:</label><br>
+  <input type="text" id="product" name="product"><br>
+  <input type="submit" value="add to cart">
+</form>
+
+
+<h1>Cart</h1>
+
+<% cart.each do |i|%>
+    <%="#{i}"%><br>
+<% end %>
